@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Project.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:5px;
+    padding-left: 8%;
+    padding-right: 5%;
+  }
+  .logo{
+    color: aqua;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-top:40px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .button{
+    background-color: rgb(255, 51, 0);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding :10px 25px;
+    border-radius: 30px;
+  }
+  .text{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    
+  }
+  h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+  }
+  h3{
+    color: azure;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  h4{
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+  .box form{
+    width: 50vh;
+    max-width: 100%;
+    position: relative;
+  }
+  .box form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 150px 15px 20px;
+    border: 2px solid rgb(80, 12, 81);
+    outline: none;
+    border-radius: 40px;
+  }
+  .box form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: rgb(253, 251, 249);
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+  }
+  .about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(9, 9, 9);
+  }
+  .about img{
+    height: auto;
+    width: 400px;
+    border-radius: 360vh;
+  }
+  .about-me{
+    width: 600px;
+  }
+  .special{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .about-me h2{
+    color: rgb(245, 248, 248);
+    font-size:70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .about-me h5{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  span{
+    color: red;
+  }
+  .about-me p{
+    color: wheat;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+button{
+  background-color: rgb(240, 15, 15);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.project{
+  background: #101010;
+  width: 100%;
+  padding: 50px 0px;
+}
+.title h2{
+  color: white;
+  font-size: 60px;
+  width: 1200px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+.card{
+  height: 45vh;
+  width: 20vw;
+  padding: 20px 35px;
+  background: #1b1a1a;
+  border-radius: 20px;
+  margin: 5vh;
+  position: relative;
+  text-align: center;
+}
+h5{
+  color: white;
+  font-size: 3vh;
+  margin-bottom: 15px;
+}
+.test p{
+  color: wheat;
+  font-size: 2vh;
+  line-height: 25px;
+  margin-bottom: 100px;
+}
+.card .button{
+background-color: rgb(240, 15, 15);
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 12px 30px;
+border-radius: 30px;
+cursor: pointer;
+}
+.Contact-me{
+width: 100%;
+height: 300px;
+background: #191919;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+.Contact-me p{
+color: aliceblue;
+font-size: 30px;
+font-weight: bold;
+margin-bottom:30px ;
+}
+.Contact-me .button-b{
+background-color: rgb(240, 15, 15);
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 13px 30px;
+border-radius: 30px;
+cursor: pointer;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1){
+  font-size: 30px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+footer p:nth-child(2){
+  color: wheat;
+  font-size: 20px;
+  width: 500px;
+  text-align: center;
+  line-height: 20px;
+}
+.footer{
+  position: absolute;
+  color: #f9004d;
+  margin-top: 280px;
+  font-size: 14px;
+}
